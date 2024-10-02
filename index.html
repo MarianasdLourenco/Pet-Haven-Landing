@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Haven - Cuidados e Serviços para seu Pet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./imagens/icone-PetHaven.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Barra de Navegação (Navbar) -->
+
+    <nav class="navbar">
+        <img class="logo" src="./imagens/icone-PetHaven.png" alt="Logotipo do Pet Haven" />
+        <ul class="nav-list">
+            <li><a class="nav-items" href="#home">Início</a></li>
+            <li><a class="nav-items" href="#services">Serviços</a></li>
+            <li><a class="nav-items" href="#products">Produtos</a></li>
+            <li><a class="nav-items" href="#about">Sobre</a></li>
+            <li><a class="nav-items" href="#contact">Contato</a></li>
+        </ul>
+
+        <div class="nav-btn">
+            <a class="nav-btn-items" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="nav-btn-items" href="#"><i class="fa-solid fa-user"></i></a>
+            <a class="nav-btn-items" href="#" id="nav-btn-toggle"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <!-- Barra de Navegação Mobile -->
+
+    <div class="navbar-mobile" id="nav-mobile">
+        <ul class="nav-list-mobile">
+            <li><a class="nav-items" href="#home">Início</a></li>
+            <li><a class="nav-items" href="#services">Serviços</a></li>
+            <li><a class="nav-items" href="#products">Produtos</a></li>
+            <li><a class="nav-items" href="#about">Sobre</a></li>
+            <li><a class="nav-items" href="#contact">Contato</a></li>
+        </ul>
+    </div>
+    <main>
+        <!-- Seção de Cabeçalho -->
+
+        <div id="home" class="content-header">
+            <section class="section-content">
+                <h1 class="primary-title">
+                    O Destino ideal para a alegria do seu
+                    <span>animal de estimação.</span>
+                </h1>
+                <p>
+                    Na Pet Haven, cuidamos com carinho e dedicação de todas as
+                    necessidades dos seus amados companheiros. Oferecemos uma ampla
+                    variedade de serviços e produtos para garantir que seus pets sejam
+                    sempre felizes, saudáveis e bem cuidados.
+                </p>
+                <div class="btn-content">
+                    <button class="btn-content-header">Agendar serviço</button>
+                    <button class="btn-content-header">Ver produtos</button>
+                </div>
+            </section>
+            <img class="header-image" src="./imagens/imagem-1.png" alt="Mulher segurando um cachorro" />
+        </div>
+
+        <!-- Seção de Serviços -->
+
+        <div id="services" class="content-services">
+            <h2 class="secondary-title">
+                Conheça Nossos Serviços: Cuidado Completo para seu Pet
+            </h2>
+
+            <div class="content-card-services">
+                <section class="card-services">
+                    <img class="services-image" src="./imagens/servico-1.png" alt="Serviço de Cuidados de Saúde" />
+                    <p class="primary-text">Cuidados de Saúde</p>
+                </section>
+
+                <section class="card-services">
+                    <img class="services-image" src="./imagens/servico-2.png" alt="Serviço de Higiene e Estética" />
+                    <p class="primary-text">Higiene e Estética</p>
+                </section>
+
+                <section class="card-services">
+                    <img class="services-image" src="./imagens/servico-3.png" alt="Serviço de Exercício e Atividade" />
+                    <p class="primary-text">Exercício e Atividade</p>
+                </section>
+
+                <section class="card-services">
+                    <img class="services-image" src="./imagens/servico-4.png" alt="Serviço de Adestramento" />
+                    <p class="primary-text">Adestramento</p>
+                </section>
+
+                <section class="card-services">
+                    <img class="services-image" src="./imagens/servico-5.png" alt="Serviço de Produtos para Pets" />
+                    <p class="primary-text">Produtos para Pets</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Seção de Informações -->
+
+        <div class="content-info">
+            <img class="info-image" src="./imagens/imagem-2.png" alt="Cachorro feliz após o tratamento estético" />
+
+            <section class="section-info">
+                <h2 class="secondary-title-left">
+                    Transformando seu Pet com Estilo e Cuidados
+                </h2>
+                <p>
+                    Higiene e estética são essenciais para a saúde e o bem-estar do seu
+                    pet. A equipe do Pet Haven é especializada em serviços de banho,
+                    tosa e cuidados estéticos, garantindo que seu animalzinho fique
+                    limpo e feliz. Utilizamos produtos de alta qualidade e técnicas
+                    seguras para proporcionar uma experiência agradável. Com um ambiente
+                    relaxante e acolhedor, seu pet se sentirá à vontade enquanto recebe
+                    o tratamento que merece. Aqui, a beleza e o bem-estar andam juntos!
+                </p>
+            </section>
+        </div>
+
+        <!-- Seção de Produtos -->
+
+        <div id="products" class="content-products">
+            <h2 class="secondary-title">Descubra Nossos Produtos Mais Vendidos</h2>
+
+            <div class="content-card-products">
+                <section class="card-products">
+                    <img class="products-image" src="./imagens/produto-1.jpg" alt="Escova para pet" />
+                    <p class="primary-text">Escova para pet</p>
+                    <p>R$ 30 - R$ 60</p>
+                </section>
+
+                <section class="card-products">
+                    <img class="products-image" src="./imagens/produto-2.jpg" alt="Brinquedo de corda" />
+                    <p class="primary-text">Brinquedo</p>
+                    <p>R$ 20 - R$ 50</p>
+                </section>
+
+                <section class="card-products">
+                    <img class="products-image" src="./imagens/produto-3.jpg" alt="Coletor higiênico" />
+                    <p class="primary-text">Coletor higiênico</p>
+                    <p>R$ 10 - R$ 30</p>
+                </section>
+
+                <section class="card-products">
+                    <img class="products-image" src="./imagens/produto-4.jpg" alt="Petisco premier" />
+                    <p class="primary-text">Petisco premier</p>
+                    <p>R$ 25 - R$ 70</p>
+                </section>
+
+                <section class="card-products">
+                    <img class="products-image" src="./imagens/produto-5.jpg" alt="Comedouro" />
+                    <p class="primary-text">Comedouro</p>
+                    <p>R$ 15 - R$ 40</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Seção Sobre -->
+
+        <div id="about" class="content-about">
+            <section class="section-about">
+                <h2 class="secondary-title-left">
+                    Conheça a História do Pet Haven: Uma Paixão por Pets e Bem-Estar
+                </h2>
+                <p>
+                    No Pet Haven, nossa missão é proporcionar o melhor cuidado para seus
+                    amigos peludos. Com uma equipe de profissionais apaixonados e
+                    experientes, oferecemos serviços de banho, tosa, adestramento e
+                    hospedagem, garantindo que seu pet esteja sempre feliz e saudável.
+                    Nosso espaço foi pensado para oferecer conforto e segurança, onde
+                    seu animal de estimação pode brincar e relaxar enquanto você está
+                    fora. Acreditamos que cada pet é único e merece atenção
+                    personalizada, por isso adaptamos nossos serviços às necessidades de
+                    cada cliente. Venha conhecer o Pet Haven e descubra por que somos o
+                    lar longe de casa para seus amados animais!
+                </p>
+            </section>
+            <img class="about-image" src="./imagens/imagem-3.png" alt="Homem segurando um cachorro" />
+        </div>
+
+        <!-- Seção de Depoimentos -->
+
+        <div class="content-testimonial">
+            <h2 class="secondary-title">
+                Depoimentos: Histórias de Amor e Cuidado dos Nossos Clientes
+            </h2>
+
+            <div class="content-card-testimonial">
+                <section class="card-testimonial">
+                    <img class="testimonial-image" src="./imagens/depoimento-1.jpg" alt="Foto de Carlos Pereira" />
+                    <p class="primary-text">Carlos Pereira</p>
+                    <p>
+                        "Levei minha cadelinha Luna para um dia de cuidados e fiquei
+                        impressionada com a atenção e o carinho que ela recebeu!"
+                    </p>
+                </section>
+
+                <section class="card-testimonial">
+                    <img class="testimonial-image" src="./imagens/depoimento-2.jpg" alt="Foto de Fabiana Souza" />
+                    <p class="primary-text">Fabiana Souza</p>
+                    <p>
+                        "Meu gato Tom sempre foi desconfiado com pessoas novas, mas o
+                        atendimento foi tão cuidadoso que ele ficou super à vontade!"
+                    </p>
+                </section>
+
+                <section class="card-testimonial">
+                    <img class="testimonial-image" src="./imagens/depoimento-3.jpg" alt="Foto de Henrique Mattos" />
+                    <p class="primary-text">Henrique Mattos</p>
+                    <p>
+                        "Excelente serviço! Desde o agendamento até o final, tudo foi
+                        perfeito. Meu cachorro voltou super limpinho e feliz."
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Seção de Contato -->
+
+        <div id="contact" class="content-contact">
+            <img class="contact-image" src="./imagens/imagem-4.png" alt="Gato e cachorro juntos" />
+            <section class="section-contact">
+                <h2 class="secondary-title-left">
+                    Entre em Contato Conosco e Tire Suas Dúvidas
+                </h2>
+                <form class="form-contact">
+                    <input type="text" name="name" placeholder="nome completo" />
+                    <input type="text" name="telefone" placeholder="telefone" />
+                    <textarea placeholder="mensagem"></textarea>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </section>
+        </div>
+
+        <!-- Seção Aprenda Mais -->
+
+        <div class="content-learn-more">
+            <h2 class="secondary-title">
+                Explore Nosso Blog: Dicas e Novidades Para o Bem-Estar do Seu Pet
+            </h2>
+
+            <div class="content-card-learnMore">
+                <section class="card-learn-more1">
+                    <p>Cuidados Essenciais de Saúde</p>
+                    <h3 class="title-learn-more">
+                        Como Manter Seu Pet Sempre Saudável
+                    </h3>
+                    <a href="#" class="btn-learn-more">Saiba Mais</a>
+                </section>
+
+                <section class="card-learn-more2">
+                    <p>Dicas de Alimentação Saudável</p>
+                    <h3 class="title-learn-more">Receitas Nutritivas para Seu Pet</h3>
+                    <a href="#" class="btn-learn-more">Saiba Mais</a>
+                </section>
+
+                <section class="card-learn-more3">
+                    <p>Treinamento e Comportamento</p>
+                    <h3 class="title-learn-more">
+                        Dicas para Educar Seu Pet de Forma Eficaz
+                    </h3>
+                    <a href="#" class="btn-learn-more">Saiba Mais</a>
+                </section>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+
+        <footer class="content-footer">
+            <img class="logo-footer" src="./imagens/icone-PetHaven.png" />
+            <div class="nav-footer">
+                <a class="footer-items" href="#home">Início</a>
+                <a class="footer-items" href="#services">Serviços</a>
+                <a class="footer-items" href="#products">Produtos</a>
+                <a class="footer-items" href="#about">Sobre</a>
+                <a class="footer-items" href="#contact">Contato</a>
+            </div>
+            <div class="social-footer">
+                <a class="social-items" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a class="social-items" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="social-items" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="social-items" href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </footer>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Todos os direitos reservados.</p>
+        </div>
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
